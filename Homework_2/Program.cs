@@ -4,10 +4,10 @@ while (loop)
 {
     double[] myArray = { };
     myArray = new double[3];
-    for (int i = 1; i < 4; i++)
+    for (int i = 0; i < myArray.Length; i++)
     {
         Console.WriteLine("Please enter your " + i +" number");
-        myArray[i-1] = double.Parse(Console.ReadLine());
+        myArray[i] = double.Parse(Console.ReadLine());
 
     }
     double max = myArray.Max();
