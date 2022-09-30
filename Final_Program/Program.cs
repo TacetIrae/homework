@@ -15,7 +15,6 @@ void PrintArray(string[] array)
     }
 }
 
-
 void SortArray (string[] array)
 {
     int NewArrayLength = 0;
@@ -51,4 +50,7 @@ string[] myArray = new string[size];
 
 FillArray(myArray);
 PrintArray(myArray);
+Console.WriteLine("Following is the result");
 SortArray(myArray);
+
+
